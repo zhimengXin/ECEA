@@ -1,5 +1,7 @@
-# ECEA
-ECEA: Extensible Co-Existing Attention for Few-Shot Object Detection
+# ECEA: Extensible Co-Existing Attention for Few-Shot Object Detection
+
+**other code is coming soon!**
+
 ![image](https://github.com/zhimengXin/ECEA/assets/162425451/cd519983-439c-43e2-ad4b-489b5e7a7f3f)
 
 # Quick Start
@@ -20,7 +22,7 @@ This repo is developed based on FSCE, DeFRCN and Detectron2. Please check them f
 # Citing
 
 If you use this work in your research or wish to refer to the baseline results published here, please use the following BibTeX entries:
-
+```
 @ARTICLE{10558758,
   author={Xin, Zhimeng and Wu, Tianxu and Chen, Shiming and Zou, Yixiong and Shao, Ling and You, Xinge},
   journal={IEEE Transactions on Image Processing}, 
@@ -31,3 +33,4 @@ If you use this work in your research or wish to refer to the baseline results p
   pages={1-1},
   keywords={Training;Detectors;Object detection;Feature extraction;Task analysis;Semantics;Adaptation models;Few-shot object detection;extensible attention;co-existing regions},
   doi={10.1109/TIP.2024.3411771}}
+```
