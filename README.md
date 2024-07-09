@@ -1,6 +1,6 @@
 # ECEA: Extensible Co-Existing Attention for Few-Shot Object Detection
 
-**This code is based on DeFrcn, TFA-based code is coming soon!**
+Config files coming soon~
 
 ![image](https://github.com/zhimengXin/ECEA/assets/162425451/cd519983-439c-43e2-ad4b-489b5e7a7f3f)
 
