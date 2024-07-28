@@ -22,10 +22,13 @@ pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/{torc
 python3 -m pip install -r requirements.txt
 ```
 
-## Run ECEA
+## Take coco as an example to train ECEA
+'''
+bash run_coco_base.sh
 
-bash run.sh
+bash run_coco_fsod.sh / bash run_coco_gfsod.sh
 
+'''
 ## Citing
 
 This repo is developed based on FSCE, DeFRCN and Detectron2. Please check them for more details and features.
