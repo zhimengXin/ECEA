@@ -1,0 +1,40 @@
+_BASE_: "../Base-RCNN.yaml"
+MODEL:
+  WEIGHTS: "voc/model_reset_remove.pth"
+  MASK_ON: False
+  BACKBONE:
+    FREEZE: False
+    WITHECEA: True
+    FREEZE_ECEA: False
+  RESNETS:
+    DEPTH: 101
+  RPN:
+    ENABLE_DECOUPLE: True
+    BACKWARD_SCALE: 0.0
+    FREEZE: False
+  ROI_HEADS:
+    ENABLE_DECOUPLE: True
+    BACKWARD_SCALE: 0.02
+    NUM_CLASSES: 5
+    FREEZE_FEAT: True
+    CLS_DROPOUT: True
+    DROPOUT_RATIO: 0.8
+INPUT:
+  MIN_SIZE_TRAIN: (480, 512, 544, 576, 608, 640, 672, 704, 736, 768,
+  MIN_SIZE_TRAIN: (480, 512, 544, 576, 608, 640, 672, 704, 736, 768, 800)
+  MIN_SIZE_TEST: 800
+DATASETS:
+  TRAIN: ("voc_2007_trainval_novel1_5shot_seed1", )
+  TEST: ("voc_2007_test_novel1",)
+SOLVER:
+  IMS_PER_BATCH: 16
+  BASE_LR: 0.01
+  STEPS: (300,800)
+  MAX_ITER: 2000
+  CHECKPOINT_PERIOD: 500
+  WARMUP_ITERS: 20
+TEST:
+  PCB_ENABLE: True
+  PCB_MODELPATH: "ImageNetPretrained/torchvision/resnet101-5d3b4d8f.pth"
+  EVAL_PERIOD: 500
+OUTPUT_DIR: "/Path/to/Output/Dir"
