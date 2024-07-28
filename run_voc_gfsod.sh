@@ -1,4 +1,4 @@
-gpu_id=$
+gpu_id=$4
 echo "gpu_id: ${gpu_id}"
 for shot in 1 3 10
 do 
