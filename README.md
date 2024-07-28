@@ -22,6 +22,9 @@ pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/{torc
 python3 -m pip install -r requirements.txt
 ```
 
+## Run ECEA
+
+bash run.sh
 
 ## Citing
 
