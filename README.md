@@ -1,6 +1,6 @@
 # ECEA: Extensible Co-Existing Attention for Few-Shot Object Detection
 
-The code of ECEA has been migrated and merged into [SCSM]([https://drive.google.com/drive/folders/1SafBDHRbutQ4D3yqDPOEmZY2u9Ip7Feh](https://github.com/zhimengXin/SCSM)) 
+The code of ECEA has been migrated and merged into [SCSM](https://github.com/zhimengXin/SCSM)
 
 ![image](https://github.com/zhimengXin/ECEA/assets/162425451/cd519983-439c-43e2-ad4b-489b5e7a7f3f)
 
